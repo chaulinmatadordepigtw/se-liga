@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - História de Terror Japonesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz - História de Terror Japonesa: Kuchisake-Onna</h1>
+        <div class="quiz">
+            <div class="question-container">
+                <p id="question">Quem é a Kuchisake-Onna?</p>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="answer" value="a"> Uma mulher que tem a boca rasgada
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="b"> Uma mulher que tem uma cabeça gigante
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="c"> Uma mulher que aparece em espelhos
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="d"> Uma mulher com o corpo de um monstro
+                    </label>
+                </div>
+                <button id="next" onclick="checkAnswer()">Próxima</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
